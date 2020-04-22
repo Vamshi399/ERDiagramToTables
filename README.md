@@ -27,3 +27,6 @@ Prerequisites: Install MySQL
 Part A: Install MySQL
 Part B: Implement Database Schema For “Conference Reviews” Database
 Part C: Populate Your Database.
+
+For Converting the ER Diagrams into Relational Database. Please refer the below website for any queries.
+https://www.tutorialcup.com/dbms/er-model-into-tables.htm
