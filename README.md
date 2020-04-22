@@ -22,3 +22,8 @@ each paper.
 ■ Each review contains two types of written comments: one to be seen by
 the review committee only and the other as feedback to the author(s).
 The files uploaded are entity–relationship diagram and sql files of Relational database for the CONFERENCE_REVIEW database and build the design using a data modeling tool such as ERwin or Rational Rose.
+
+Prerequisites: Install MySQL
+Part A: Install MySQL
+Part B: Implement Database Schema For “Conference Reviews” Database
+Part C: Populate Your Database.
