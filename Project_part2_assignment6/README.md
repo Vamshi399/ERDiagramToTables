@@ -35,7 +35,7 @@ https://www.tutorialcup.com/dbms/er-model-into-tables.htm
 
 In this part of the project you will create a simple command line, Java application to interact with
 your database.
-Part A: Setting Up Your Java Development Environment
+1. Part A: Setting Up Your Java Development Environment
 Before getting started, you must set up your Java development environment. Note, if you
 already have a Java development environment setup feel free to skip this step.
 Setting up your environment includes installing the Java JDK (version 8 or 9) and installing an
@@ -48,7 +48,7 @@ etc but the details will vary.
 To install Eclipse and the Java JDK follow this tutorial. It has instructions for Linux, OS X
 and Windows:
 https://www.ntu.edu.sg/home/ehchua/programming/howto/EclipseJava_HowTo.html
-Part B: Create A Java Project In Eclipse
+2. Part B: Create A Java Project In Eclipse
 A project in Eclipse is essentially a folder containing all the source code and other files you need
 to build your application. Let’s start by creating a project for your program.
 1. Open Eclipse 2. From the File menu select New → Java Project
