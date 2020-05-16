@@ -99,7 +99,7 @@ console. If no results were returned, print a message that indicates no results 
 Please follow the standard Java naming conventions listed in the “Basic Naming
 Conventions Java” document located in “Documents > Course Materials” in blackboard.
 Queries:
-a. Get a submitted paper’s details by the author’s Primary Key. The query should return the
+a) Get a submitted paper’s details by the author’s Primary Key. The query should return the
 following data (columns): Paper.Id, Paper.Title, Paper.Abstract, Author.EmailAddress,
 Author.FirstName, Author.LastName
 b. Get all reviews for a paper by the paper’s Id, where the paper was recommended to be
