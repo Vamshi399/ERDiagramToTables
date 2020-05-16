@@ -99,16 +99,16 @@ console. If no results were returned, print a message that indicates no results 
 Please follow the standard Java naming conventions listed in the “Basic Naming
 Conventions Java” document located in “Documents > Course Materials” in blackboard.
 Queries:
-a) Get a submitted paper’s details by the author’s Primary Key. The query should return the
+1. Get a submitted paper’s details by the author’s Primary Key. The query should return the
 following data (columns): Paper.Id, Paper.Title, Paper.Abstract, Author.EmailAddress,
 Author.FirstName, Author.LastName
-b. Get all reviews for a paper by the paper’s Id, where the paper was recommended to be
+2. Get all reviews for a paper by the paper’s Id, where the paper was recommended to be
 published. The query should return the following data (columns): All columns from the
 Review table.
-c. Get a count of all papers submitted.
-d. Create a new paper submission. Remember this includes creating new records in both
+3. Get a count of all papers submitted.
+4. Create a new paper submission. Remember this includes creating new records in both
 the Author and Paper tables.
-e. Try and Delete the first “Author” row in your Author table by the author’s id. Did you
+5. Try and Delete the first “Author” row in your Author table by the author’s id. Did you
 receive an error? If yes, print to the console the error you received. Also note in your
 message why the query failed. If it didn’t fail, print a message explaining why you were
 able to delete the row.
