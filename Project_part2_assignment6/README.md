@@ -89,8 +89,8 @@ Run->Java Application menu option.
 5. The program runs. Any console output is directed to a window at the bottom of the
 screen.
 JDBC code examples:
-https://www.tutorialspoint.com/jdbc/jdbc-sample-code.htm
-https://examples.javacodegeeks.com/core-java/sql/preparedstatement/java-sql-prepared
+6. https://www.tutorialspoint.com/jdbc/jdbc-sample-code.htm
+7. https://examples.javacodegeeks.com/core-java/sql/preparedstatement/java-sql-prepared
 statement-example/
 Next, in the above class, create java methods that implement the queries below using SQL.
 Implement a method per query. Note, all of your queries should be parameterized queries if
@@ -99,16 +99,16 @@ console. If no results were returned, print a message that indicates no results 
 Please follow the standard Java naming conventions listed in the “Basic Naming
 Conventions Java” document located in “Documents > Course Materials” in blackboard.
 Queries:
-1. Get a submitted paper’s details by the author’s Primary Key. The query should return the
+a. Get a submitted paper’s details by the author’s Primary Key. The query should return the
 following data (columns): Paper.Id, Paper.Title, Paper.Abstract, Author.EmailAddress,
 Author.FirstName, Author.LastName
-2. Get all reviews for a paper by the paper’s Id, where the paper was recommended to be
+b. Get all reviews for a paper by the paper’s Id, where the paper was recommended to be
 published. The query should return the following data (columns): All columns from the
 Review table.
-3. Get a count of all papers submitted.
-4. Create a new paper submission. Remember this includes creating new records in both
+c. Get a count of all papers submitted.
+d. Create a new paper submission. Remember this includes creating new records in both
 the Author and Paper tables.
-5. Try and Delete the first “Author” row in your Author table by the author’s id. Did you
+e. Try and Delete the first “Author” row in your Author table by the author’s id. Did you
 receive an error? If yes, print to the console the error you received. Also note in your
 message why the query failed. If it didn’t fail, print a message explaining why you were
 able to delete the row.
