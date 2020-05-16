@@ -79,18 +79,18 @@ First, create a new java class called PaperReviewDriver.java in the java project
 Note, this is the class where you will implement and test the methods that implement your
 database queries.
 To create a new Java class:
-● Right click on the project name and select New->Class from the context menu.
-● When the New Class dialog appears, enter “PaperReviewDriver” as the class name and
+1. Right click on the project name and select New->Class from the context menu.
+2. When the New Class dialog appears, enter “PaperReviewDriver” as the class name and
 check the box public static void main(String[] args).
-● Click on the Finish button.
+3. Click on the Finish button.
 To run your program:
-● Right click on the file with the main method, and from the context menu select the
+4. Right click on the file with the main method, and from the context menu select the
 Run->Java Application menu option.
-● The program runs. Any console output is directed to a window at the bottom of the
+5. The program runs. Any console output is directed to a window at the bottom of the
 screen.
 JDBC code examples:
-● https://www.tutorialspoint.com/jdbc/jdbc-sample-code.htm
-● https://examples.javacodegeeks.com/core-java/sql/preparedstatement/java-sql-prepared
+https://www.tutorialspoint.com/jdbc/jdbc-sample-code.htm
+https://examples.javacodegeeks.com/core-java/sql/preparedstatement/java-sql-prepared
 statement-example/
 Next, in the above class, create java methods that implement the queries below using SQL.
 Implement a method per query. Note, all of your queries should be parameterized queries if
@@ -99,16 +99,16 @@ console. If no results were returned, print a message that indicates no results 
 Please follow the standard Java naming conventions listed in the “Basic Naming
 Conventions Java” document located in “Documents > Course Materials” in blackboard.
 Queries:
-● Get a submitted paper’s details by the author’s Primary Key. The query should return the
+1. Get a submitted paper’s details by the author’s Primary Key. The query should return the
 following data (columns): Paper.Id, Paper.Title, Paper.Abstract, Author.EmailAddress,
 Author.FirstName, Author.LastName
-● Get all reviews for a paper by the paper’s Id, where the paper was recommended to be
+2. Get all reviews for a paper by the paper’s Id, where the paper was recommended to be
 published. The query should return the following data (columns): All columns from the
 Review table.
-● Get a count of all papers submitted.
-● Create a new paper submission. Remember this includes creating new records in both
+3. Get a count of all papers submitted.
+4. Create a new paper submission. Remember this includes creating new records in both
 the Author and Paper tables.
-● Try and Delete the first “Author” row in your Author table by the author’s id. Did you
+5. Try and Delete the first “Author” row in your Author table by the author’s id. Did you
 receive an error? If yes, print to the console the error you received. Also note in your
 message why the query failed. If it didn’t fail, print a message explaining why you were
 able to delete the row.
