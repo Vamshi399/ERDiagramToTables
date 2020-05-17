@@ -113,4 +113,14 @@ receive an error? If yes, print to the console the error you received. Also note
 message why the query failed. If it didn’t fail, print a message explaining why you were
 able to delete the row.
 Lastyly, in the main method, call each of the methods you have created. Make sure all results
-from your queries are being printed to the console
+from your queries are being printed to the console.
+
+IMPORT INSTRUCTIONS TO RUN THIS APPLICATION:
+
+1. Download the database MYSQL and use CONFERENCE_REVIEW.sql. Please follow the video included in the gitHub. 
+2. You must use MySQL Workbench and Eclipse for this application to run. 
+3. Make sure to download the correct JDBC drivers file in your mysql folder. Please find the the correct jar uploaded in the GitHub.
+4. Download the file and then create new java project.
+5. Then create class named PaperReviewDriver.
+6. Load the Mysql drivers.
+7. Now after the connectivity is done, run the program.
