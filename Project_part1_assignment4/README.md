@@ -30,3 +30,19 @@ Part C: Populate Your Database.
 
 For Converting the ER Diagrams into Relational Database. Please refer the below website for any queries.
 https://www.tutorialcup.com/dbms/er-model-into-tables.htm
+
+Important Instructions to follow:
+
+1. You need to have MySQL installed in your system.
+
+2. First create a database called Conference_View.
+
+3. Then to use this database type USE Conference_View.
+
+4. Then Create tables using create table syntax. For appropriate syntax see file conference_review.sql
+
+5. We then insert values using insert command.For appropriate syntax see conference_review.sql
+
+6. To see the whole table along with inserted values. We give command SELECT * FROM TABLENAME.
+
+NOTE: While creating table Primary key is must as it uniquely identifies the row. Foregin Key is written at the end in create table command. To see refer file conference_review.sql file.
